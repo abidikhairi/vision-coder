@@ -1,0 +1,8 @@
+pytest
+pylint
+pytorch-lightning==2.5.2
+torch==2.7.1
+torchaudio==2.7.1
+torchmetrics==1.7.4
+torchvision==0.22.1
+transformers==4.52.4
