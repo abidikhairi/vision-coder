@@ -7,7 +7,7 @@ install-cpu:
 	pip install -r requirements-cpu.txt && pip install -e .
 
 test:
-	pytest -vv --cov=test tests
+	pytest -vv tests
 
 lint:
 	pylint --disable=R,C src/vision_coder/
